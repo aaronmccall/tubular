@@ -1,0 +1,33 @@
+{
+  "name": "tubular",
+  "version": "0.0.0",
+  "description": "A streaming, fluent wrapper for riakpbc",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aaronmccall/tubular.git"
+  },
+  "keywords": [
+    "riak",
+    "riakpbc",
+    "streams",
+    "database",
+    "fluent",
+    "oop"
+  ],
+  "author": "Aaron McCall <aaron@andyet.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaronmccall/tubular/issues"
+  },
+  "homepage": "https://github.com/aaronmccall/tubular",
+  "dependencies": {
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {
+    "riakpbc": "~1.2.5"
+  }
+}
